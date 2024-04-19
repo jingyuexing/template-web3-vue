@@ -1,0 +1,33 @@
+{
+  "name": "vue3-web3-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coinbase/coinbase-cloud-sdk": "^0.0.1",
+    "@ethereumjs/tx": "^5.0.0",
+    "@ethereumjs/util": "^9.0.0",
+    "@jingyuexing/utils": "^0.1.8",
+    "@metamask/detect-provider": "2.0.0",
+    "@scorum/bip39": "2.5.0",
+    "bip39": "^3.1.0",
+    "ethereumjs-wallet": "^1.0.2",
+    "ethers": "^6.8.0",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "vue": "^3.3.4",
+    "web3": "^4.1.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "unocss": "^0.56.5",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
